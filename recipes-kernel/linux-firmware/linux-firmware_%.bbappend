@@ -23,7 +23,10 @@ SRC_URI:append = " \
 	git://git.ti.com/git/wilink8-wlan/wl18xx_fw.git;protocol=https;branch=${BRANCH_tiwlan};destsuffix=tiwlan;name=tiwlan \
 	git://git.ti.com/git/ti-bt/service-packs.git;protocol=https;branch=${BRANCH_tibt};destsuffix=tibt;name=tibt \
 	file://wl1271-nvs.bin \
+        file://robustel_WHENCE \
 "
+
+
 do_install:append() {
 	install -d ${D}${nonarch_base_libdir}/firmware/bcm
 	install -m 0755 ${WORKDIR}/lib/firmware/brcm/* ${D}${nonarch_base_libdir}/firmware/brcm/
