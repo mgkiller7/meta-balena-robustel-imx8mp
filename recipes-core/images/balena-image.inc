@@ -29,3 +29,18 @@ IMAGE_INSTALL:append = " \
 
 # This BSP sets this variable in the machine conf so let's unset it since this makes our build fail
 unset ROOTFS_SIZE
+
+TEMPORARILY_ALLOWED_PACKAGES ?= " \
+    linux-firmware-rtl8192su \
+    linux-firmware-rtl8723b-bt \
+    linux-firmware-wl12xx \
+    linux-firmware-wl18xx \
+    linux-firmware-wlcommon \
+"
+
+BALENA_ALLOWED_FIRMWARE_PACKAGES:append = " ${TEMPORARILY_ALLOWED_PACKAGES} "
+
+# This is linux-ffirmware that will be removed
+# in the next major balenaOS release
+IMAGE_INSTALL:append = " ${TEMPORARILY_ALLOWED_PACKAGES} "
+

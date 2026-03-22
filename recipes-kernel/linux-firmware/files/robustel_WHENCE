@@ -1,0 +1,27 @@
+--------------------------------------------------------------------------
+
+Driver: brcmfmac
+
+File: brcm/brcmfmac4339-sdio,robustel,imx8mp-rbt.bin
+File: brcm/brcmfmac4339-sdio-fcc.txt
+File: brcm/brcmfmac4339-sdio-prod_v6.37.39.134.bin
+File: brcm/brcmfmac4339-sdio.robustel,imx8mp-rbt.txt
+File: brcm/brcmfmac4339-sdio.txt
+File: brcm/brcmfmac43430-sdio-fcc.txt
+File: brcm/brcmfmac43430-sdio-prod_v7.45.98.124.bin
+File: brcm/brcmfmac43430-sdio.robustel,imx8mp-rbt.bin
+File: brcm/brcmfmac43430-sdio.robustel,imx8mp-rbt.txt
+
+--------------------------------------------------------------------------
+
+Driver: TI_ST
+
+File: ti-connectivity/TIInit_10.6.15.bts 
+File: ti-connectivity/TIInit_11.8.32.bts 
+File: ti-connectivity/TIInit_12.10.28.bts 
+File: ti-connectivity/TIInit_12.8.32.bts 
+File: ti-connectivity/TIInit_6.12.26.bts 
+File: ti-connectivity/TIInit_6.7.16.bts 
+File: ti-connectivity/TIInit_7.6.15.bts 
+
+--------------------------------------------------------------------------
